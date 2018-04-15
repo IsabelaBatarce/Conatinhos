@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contatinhos</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container_12">
+      <h1>Contatinhos</h1>
+      <div class="grid_12">
+        <p>
+          <form class="" action="index.html" method="post">
+            <input type="text" id="taskfield" name="task" value="" placeholder="Nome do contato">
+            <input type="text" id="taskfield1" name="task" value="" placeholder="Numero">
+            <input type="text" id="taskfield" name="task" value="" placeholder="Características">
+            <br />
+            <button type="button" id="taskbutton" name="taskAdd">Adicionar Contato</button>
+          </form>
+        </p>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12 tasklistheader">
+        <h2>Contatos</h2>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="container_12 tasklist" id="tasklist">
+      <p>Você não possui nenhum contato</p>
+    </div>
+    <script type="text/javascript" src="model/task.js"></script>
+    <script type="text/javascript" src="model/taskCollection.js"></script>
+    <script type="text/javascript" src="controller/taskController.js"></script>
+    <script type="text/javascript" src="view/taskView.js"></script>    
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
